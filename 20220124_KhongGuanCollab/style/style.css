@@ -1,0 +1,92 @@
+html,body{
+    overflow-x: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important; 
+}
+
+.bg-light {
+    background-color:#EE1B2E!important;
+}
+
+#hero_cover {
+    height: 65vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+}
+.display-6 {
+    font-size: 20px;
+    color: white;
+}
+.display-1 {
+    font-size:35px ;
+    font-weight: 500;
+    color: white;
+}
+.btn-light {
+    background-color: #EE1B2E;
+    color: white;
+}
+
+.card-text {
+    color: #303030BF;
+    text-align: start;
+}
+.btn {
+    color: black;
+    text-decoration: none;
+}
+#carousel_body {
+    display: flex;
+    background-color: rgba(243, 154, 139, 0.15);
+    min-height: 350px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+@media screen and (min-width: 576px) {
+    .carousel-caption {
+        bottom: 03rem;
+    }
+    .display-6 {
+        font-size: 30px;
+    }
+    .display-1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-title {
+        text-align: start;
+    }
+    .card-text {
+        color: #303030BF;
+        text-align: start;
+    }
+    .btn {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel-caption {
+        bottom: 06rem;
+    }
+    .display-6 {
+        font-size: 30px;
+    }
+    .display-1 {
+        font-size: 70px;
+        font-weight: 500;
+    }
+}
